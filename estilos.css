@@ -1,0 +1,85 @@
+body{
+    background-color: #ff4949;
+    color: #ddd;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+p{
+    font-size: 15pt;
+}
+ul{
+    list-style: none;
+    font-size: 15pt;
+}
+
+li{
+    border: 1px solid;
+    margin: 0 0 10px 0;
+    width: 150px;
+    padding: 5px;
+    background-color: #0af;
+    color: #eee;
+    cursor: pointer
+}
+li:hover{
+    background-color: #09f;
+}
+li:active{
+    background-color: #08b;
+}
+
+#cbCardapio{
+    width: 400px;
+    border: 5px outset #88BF50;
+    padding: 10px;
+    text-align: center;
+    font-size: 13pt;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.btnVoltar{
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: #0072F5;
+    margin: 20px;
+    color: #ddd;
+}
+.btnVoltar:hover{
+    background-color: #0061E4;
+    cursor: pointer;
+}
+
+#estoque{
+    width: 400px;
+    border: 5px outset #88BF50;
+    padding: 10px;
+    font-size: 13pt;
+    color: #ddd;
+    font-weight: bold;
+}
+
+#telaVendas{
+    width: 400px;
+    border: 5px outset #88BF50;
+    padding: 10px;
+    font-size: 13pt;
+    font-weight: bold;
+}
+#btn{
+    background-color: #0072F5;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #FFF;
+}
+#btn:hover{
+    background-color: #0061E4;
+    cursor: pointer;
+}
